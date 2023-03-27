@@ -23,11 +23,4 @@ debug = false
 panic = "abort"
 overflow-checks = true
 
-[workspace]
-# remember to include a member for each contract
-members = [
-  "nft",
-  "test-approval-receiver",
-  "test-token-receiver",
-]
 
